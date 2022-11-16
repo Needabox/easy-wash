@@ -100,13 +100,13 @@
   display: none;
 }
 #booking-page .end .content-start .services #ls-1:checked ~ .ls-1 {
-  border: 1px solid #425F57;
+  border: 5px solid #425F57;
 }
 #booking-page .end .content-start .services #ls-2:checked ~ .ls-2 {
-  border: 1px solid #425F57;
+  border: 5px solid #425F57;
 }
 #booking-page .end .content-start .services #ls-3:checked ~ .ls-3 {
-  border: 1px solid #425F57;
+  border: 5px solid #425F57;
 }
 #booking-page .end .content-end {
   display: flex;
