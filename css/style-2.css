@@ -76,6 +76,7 @@
   background-color: #CFFF8D;
   padding: 1.5rem 2rem;
   margin-bottom: 2rem;
+  cursor: pointer;
 }
 #booking-page .end .content-start .services .list-services h4 {
   text-align: center;
@@ -94,6 +95,18 @@
 #booking-page .end .content-start .services .list-services .currency p {
   margin-bottom: 0;
   font-weight: bold;
+}
+#booking-page .end .content-start .services input[type=radio] {
+  display: none;
+}
+#booking-page .end .content-start .services #ls-1:checked ~ .ls-1 {
+  border: 1px solid #425F57;
+}
+#booking-page .end .content-start .services #ls-2:checked ~ .ls-2 {
+  border: 1px solid #425F57;
+}
+#booking-page .end .content-start .services #ls-3:checked ~ .ls-3 {
+  border: 1px solid #425F57;
 }
 #booking-page .end .content-end {
   display: flex;
