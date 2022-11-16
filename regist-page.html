@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Booking Page | Easy Wash</title>
+    <title>Registration Page | Easy Wash</title>
 
     <!-- Style-2 CSS -->
     <link rel="stylesheet" href="css/style-2.css">
@@ -18,61 +18,44 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <!-- Poppins -->
-        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <section id="booking-page">
-        <div class="start">
-            <div class="profile">
-                <img src="img/illustrations/profile.png" alt="">
-                <h4>Kobo Kanaeru</h4>
+    <section id="registration-page">
+        <div class="wrapper">
+            <div class="start">
+                <h1>Create Account</h1>
             </div>
-        </div>
-        <div class="end">
-            <div class="content-start">
-                <h3>Our Services</h3>
-                <div class="services">
-                    <div class="list-services">
-                        <h4>Regular Laundry</h4>
-                        <div class="currency">
-                            <i class="bi bi-currency-dollar"></i>
-                            <p>2.40</p>
-                        </div>
-                    </div>
-                    <div class="list-services">
-                        <h4>Express Laundry</h4>
-                        <div class="currency">
-                            <i class="bi bi-currency-dollar"></i>
-                            <p>3.40</p>
-                        </div>
-                    </div>
-                    <div class="list-services">
-                        <h4>On Demand</h4>
-                        <div class="currency">
-                            <i class="bi bi-currency-dollar"></i>
-                            <p>4.70</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="content-end">
+            <div class="center">
                 <form action="">
-                    <button class="search" for=""><i class="bi bi-search"></i></button>
-                    <input type="text" placeholder="Find our nearest outlet">
+                    <div class="input">
+                        <label for="name"><i class="bi bi-person-vcard"></i></label>
+                        <input id="name" type="text" placeholder="Input your name">
+                    </div>
+                    <div class="input">
+                        <label for="email"><i class="bi bi-envelope"></i></label>
+                        <input id="email" type="email" placeholder="Input your email">
+                    </div>
+                    <div class="input">
+                        <label for="password"><i class="bi bi-shield-lock-fill"></i></label>
+                        <input id="password" type="password" placeholder="Password">
+                    </div>
+                    <div class="input">
+                        <label for="password_confirmation"><i class="bi bi-repeat"></i></label>
+                        <input id="password_confirmation" type="password" placeholder="Repeat your password">
+                    </div>
+                    <div class="checkbox">
+                        <input id="checkbox" type="checkbox">
+                        <label for="checkbox">I agree all statements in <a href="">Terms of service</a></label>
+                    </div>
+                    <div class="button">
+                        <button>Sign Up</button>
+                    </div>
                 </form>
-                <div class="navigate-maps">
-                    <button><i class="bi bi-geo-alt-fill"></i> 0.0 km</button>
-                    <button><i class="bi bi-alarm-fill"></i>0.0 min</button>
-                </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d63468.49555827488!2d106.72224003786054!3d-6.1600821218022475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1668572082301!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <button class="order">Book Now</button>
             </div>
-        </div>
-        <div class="navigator">
-            <button>
-                <i class="bi bi-arrow-left"></i>
-                <span>Back to home page</span>
-            </button>
+            <div class="end">
+                <span>Have already an account? <a href="">Login here</a></span>
+            </div>
         </div>
     </section>
 

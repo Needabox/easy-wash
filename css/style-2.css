@@ -194,4 +194,110 @@
   position: absolute;
   top: 50px;
   transform: translate(50%);
+}
+
+#registration-page {
+  width: 100vw;
+  height: 100vh;
+  background-color: #A8E890;
+  padding: 5%;
+}
+#registration-page .wrapper {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 2rem 2rem;
+}
+#registration-page .wrapper .start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin-bottom: 4rem;
+}
+#registration-page .wrapper .start h1 {
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: black;
+}
+#registration-page .wrapper .center {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+#registration-page .wrapper .center form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+}
+#registration-page .wrapper .center form .input {
+  position: relative;
+  margin-bottom: 1rem;
+}
+#registration-page .wrapper .center form .input label {
+  position: absolute;
+  top: 23%;
+  right: 10px;
+  transform: translate(-50%);
+  font-size: 25px;
+}
+#registration-page .wrapper .center form .input input {
+  width: 100%;
+  border: 1px solid black;
+  padding: 1rem 2rem 1rem 1rem;
+  border-radius: 10px;
+}
+#registration-page .wrapper .center form .checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+#registration-page .wrapper .center form .checkbox input {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+#registration-page .wrapper .center form .checkbox label a {
+  color: black;
+  font-weight: bold;
+}
+#registration-page .wrapper .center form .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#registration-page .wrapper .center form .button button {
+  background-color: #A8E890;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 1rem 5rem;
+  border-radius: 10px;
+}
+#registration-page .wrapper .end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#registration-page .wrapper .end span {
+  text-align: center;
+}
+#registration-page .wrapper .end span a {
+  color: black;
+  font-weight: bold;
 }/*# sourceMappingURL=style-2.css.map */
