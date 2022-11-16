@@ -1,0 +1,197 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+#booking-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 5%;
+}
+#booking-page .start {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+}
+#booking-page .start .profile {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+#booking-page .start .profile img {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  width: 70px;
+}
+#booking-page .start .profile h4 {
+  border-bottom: 2px solid black;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin-right: 1rem;
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+}
+#booking-page .end {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 5rem 0;
+}
+#booking-page .end .content-start {
+  width: 100%;
+  width: 500px;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#booking-page .end .content-start h3 {
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: #425F57;
+}
+#booking-page .end .content-start .services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#booking-page .end .content-start .services .list-services {
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #CFFF8D;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+}
+#booking-page .end .content-start .services .list-services h4 {
+  text-align: center;
+  margin-bottom: 0;
+}
+#booking-page .end .content-start .services .list-services .currency {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+#booking-page .end .content-start .services .list-services .currency i {
+  font-size: 25px;
+  font-weight: bold;
+}
+#booking-page .end .content-start .services .list-services .currency p {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+#booking-page .end .content-end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+  justify-content: space-evenly;
+  padding: 0 1rem;
+}
+#booking-page .end .content-end form {
+  position: relative;
+}
+#booking-page .end .content-end form .search {
+  border: none;
+  position: absolute;
+  top: 53%;
+  right: 1%;
+  transform: translate(-50%, -50%);
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  font-size: 25px;
+  background: none;
+}
+#booking-page .end .content-end form input {
+  width: 100%;
+  background-color: #A8E890;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  font-size: 20px;
+  border: none;
+}
+#booking-page .end .content-end .navigate-maps {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+  width: 100%;
+  max-width: 500px;
+}
+#booking-page .end .content-end .navigate-maps button {
+  border: none;
+  background-color: lightgray;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+#booking-page .end .content-end .navigate-maps button i {
+  margin-right: 0.5rem;
+}
+#booking-page .end .content-end iframe {
+  width: 100%;
+  max-width: 450px;
+  max-height: 250px;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px lightgray;
+}
+#booking-page .end .content-end .order {
+  border: none;
+  background-color: #425F57;
+  color: white;
+  border-radius: 10px;
+  padding: 1rem 4rem;
+}
+#booking-page .navigator {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 240px;
+}
+#booking-page .navigator button {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: 40px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #A8E890;
+  border: none;
+  border-radius: 5px;
+}
+#booking-page .navigator button i {
+  margin-bottom: 1rem;
+  position: absolute;
+  top: 20px;
+}
+#booking-page .navigator button span {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  rotate: 90deg;
+  position: absolute;
+  top: 50px;
+  transform: translate(50%);
+}/*# sourceMappingURL=style-2.css.map */

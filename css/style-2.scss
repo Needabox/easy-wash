@@ -1,0 +1,190 @@
+$color1:#425F57;
+$color2:#A8E890;
+$color3:#CFFF8D;
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+#booking-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 5%;
+    .start {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        height: 200px;
+        .profile {
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: row-reverse;
+            align-items: center;
+            img {
+                width: max-content;
+                width: 70px;
+            }
+            h4 {
+                border-bottom: 2px solid black;
+                height: max-content;
+                margin-right: 1rem;
+                padding-bottom: .5rem;
+                font-weight: bold;
+            }
+        }
+    }
+    
+    .end {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+        height: max-content;
+        padding: 5rem 0;
+        .content-start {
+            width: 100%;
+            width: 500px;
+            padding: 0 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            h3 {
+                margin-bottom: 2rem;
+                font-weight: bold;
+                color: $color1;
+            }
+            .services {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .list-services {
+                    width: 100%;
+                    border-radius: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: $color3;
+                    padding: 1.5rem 2rem;
+                    margin-bottom: 2rem;
+                    h4 {
+                        text-align: center;
+                        margin-bottom: 0;
+                    }
+                    .currency {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-top: 1rem;
+                        i {
+                            font-size: 25px;
+                            font-weight: bold;
+                        }
+                        p {
+                            margin-bottom: 0;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+        .content-end {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            max-width: 500px;
+            justify-content: space-evenly;
+            padding: 0 1rem;
+            form {
+                position: relative;
+                .search {
+                    border: none;
+                    position: absolute;
+                    top: 53%;
+                    right: 1%;
+                    transform: translate(-50%, -50%);
+                    height: min-content;
+                    font-size: 25px;
+                    background: none;
+                }
+                input {
+                    width: 100%;
+                    background-color: $color2;
+                    border-radius: 10px;
+                    padding: 1rem 2rem;
+                    font-size: 20px;
+                    border: none;
+                }
+            }
+            .navigate-maps {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                padding: 2rem 0;
+                width: 100%;
+                max-width: 500px;
+                button {
+                    i {
+                        margin-right: .5rem;
+                    }
+                    border: none;
+                    background-color: lightgray;
+                    border-radius: 5px;
+                    padding: .5rem 1rem;
+                }
+            }
+            iframe {
+                width: 100%;
+                max-width: 450px;
+                max-height: 250px;
+                margin-bottom: 2rem;
+                border-radius: 10px;
+                box-shadow: 0px 0px 4px lightgray;
+            }
+            .order {
+                border: none;
+                background-color: $color1;
+                color: white;
+                border-radius: 10px;
+                padding: 1rem 4rem;
+            }
+        }
+    }
+    .navigator {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        height: 240px;
+        button {
+            height: max-content;
+            width: 40px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+            background-color: $color2;
+            border: none;
+            border-radius: 5px;
+            i {
+                margin-bottom: 1rem;
+                position: absolute;
+                top: 20px;
+            }
+            span {
+                width: max-content;
+                rotate: 90deg;
+                position: absolute;
+                top: 50px;
+                transform: translate(50%);
+            }
+        }
+    }
+}
