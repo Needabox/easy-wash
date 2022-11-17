@@ -62,3 +62,29 @@ h1,h2,h3,h4,h5,h6,a,p {
  .btn-green-first {
      background-color: #749F82;
  }
+
+.card-green-fourth {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(207, 255, 141, 1);
+    transition: 0.3s;
+    border-radius: 30px;
+}
+
+/* If the screen size is 1200px wide or more, set the font-size to 80px */
+@media (min-width: 1200px) {
+    .responsive-font-example {
+        font-size: 45px;
+    }
+}
+
+/* If the screen size is smaller than 1200px, set the font-size to 80px */
+@media (max-width: 1199.98px) {
+    .responsive-font-example {
+        font-size: 25px;
+    }
+}
+
+a:hover {
+    color: #425F57;
+}
