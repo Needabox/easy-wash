@@ -88,3 +88,11 @@ h1,h2,h3,h4,h5,h6,a,p {
 a:hover {
     color: #425F57;
 }
+
+.bg-green-third {
+    background-color: #A8E890;
+}
+
+.bg-footer {
+    background-color: #2D343C;
+}
