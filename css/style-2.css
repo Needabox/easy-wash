@@ -418,4 +418,80 @@
   height: 200px;
   padding: 1rem;
   border-radius: 10px;
+}
+
+#payment-gateway {
+  padding: 3rem;
+}
+#payment-gateway .start {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+#payment-gateway .start img {
+  width: 100px;
+}
+#payment-gateway .end form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#payment-gateway .end form .start {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+#payment-gateway .end form .start label {
+  text-align: left;
+  width: 100%;
+  font-size: 22px;
+}
+#payment-gateway .end form .start input {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 1rem !important;
+  border-radius: 10px;
+  padding: 0.5rem;
+  border: 1px solid lightgray;
+}
+#payment-gateway .end form .end {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#payment-gateway .end form .end label {
+  text-align: left;
+  width: 100%;
+  font-size: 22px;
+}
+#payment-gateway .end form .end input {
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  padding: 1rem !important;
+}
+#payment-gateway .end form .end .date {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#payment-gateway .end form .end .date input {
+  width: 48.5%;
+}
+#payment-gateway .end form button {
+  margin: 1rem 0;
+  padding: 0.8rem 0.5rem;
+  border: none;
+  background-color: #749F82;
+  color: white;
+  border-radius: 10px;
+}
+#payment-gateway .end form p {
+  text-align: center;
+}
+#payment-gateway .end form p a {
+  color: #749F82;
 }/*# sourceMappingURL=style-2.css.map */
