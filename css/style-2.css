@@ -100,13 +100,13 @@
   display: none;
 }
 #booking-page .end .content-start .services #ls-1:checked ~ .ls-1 {
-  border: 5px solid #425F57;
+  border: 1px solid #425F57;
 }
 #booking-page .end .content-start .services #ls-2:checked ~ .ls-2 {
-  border: 5px solid #425F57;
+  border: 1px solid #425F57;
 }
 #booking-page .end .content-start .services #ls-3:checked ~ .ls-3 {
-  border: 5px solid #425F57;
+  border: 1px solid #425F57;
 }
 #booking-page .end .content-end {
   display: flex;
@@ -313,4 +313,109 @@
 #registration-page .wrapper .end span a {
   color: black;
   font-weight: bold;
+}
+
+#rating-page {
+  display: flex;
+  background-color: #CFFF8D;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: white;
+}
+#rating-page .start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100% !important;
+  padding: 5%;
+}
+#rating-page .start h4 {
+  font-size: 24px;
+  margin-bottom: 4rem;
+}
+#rating-page .start img {
+  width: 100%;
+  max-width: 540px;
+}
+#rating-page .end {
+  width: 100%;
+  max-width: 800px;
+  padding: 2%;
+  background-color: #CFFF8D;
+}
+#rating-page .end form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+#rating-page .end form #checkbox {
+  margin-bottom: 2rem;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+}
+#rating-page .end form #checkbox h4 {
+  text-align: center;
+}
+#rating-page .end form #checkbox .checkbox-item {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex: 5 10 23%;
+  padding: 1rem;
+}
+#rating-page .end form #checkbox .checkbox-item div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+#rating-page .end form #checkbox .checkbox-item div input {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid black;
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+#rating-page .end form #checkbox .checkbox-item div input:checked {
+  -webkit-appearance: auto;
+     -moz-appearance: auto;
+          appearance: auto;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  background-color: blue;
+}
+#rating-page .end form #checkbox .checkbox-item div img {
+  margin-bottom: 1rem;
+  max-width: 50px;
+  cursor: pointer;
+}
+#rating-page .end form .comment {
+  margin-bottom: 2rem;
+}
+#rating-page .end form .comment label {
+  margin-bottom: 1rem;
+}
+#rating-page .end form .comment textarea {
+  width: 100%;
+  height: 100px;
+  padding: 1rem;
+  border-radius: 10px;
+}
+#rating-page .end form .rating {
+  margin-bottom: 0rem;
+}
+#rating-page .end form .rating textarea {
+  width: 100%;
+  height: 200px;
+  padding: 1rem;
+  border-radius: 10px;
 }/*# sourceMappingURL=style-2.css.map */
